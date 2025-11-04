@@ -1,44 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato</title>
-    <title>EcoTech</title>
-    <link rel="stylesheet" href="skyle.css">
+    <title>EcoTech - Contato</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <head>
-        <div class="Titulo">
+    <header>
+
+        <div class="header-container">
             <h1>EcoTech</h1>
 
-            <div class="nav-item"><a href="./index.html">Ínicio</a></div>
-            <div class="nav-item"><a href="./produto.html">Produtos</a></div>
-            <div class="nav-item"><a href="./contato.html">Contato</a></div>
+            <nav>
+                <a href="index.html">Início</a>
+                <a href="produto.html">Produtos</a>
+                <a href="contato.html">Contato</a>
+            </nav>
+
         </div>
-    </head>
 
-    <main>
-        <section>
-            <div class="contact">
-                <form>
-                    <label for="nome">Nome:</label>
-                    <input type="text" name="uname" id="nome">
+    </header>
 
-                    <label for="email">E-mail:</label>
-                    <input type="text" name="umail" id="email">
+    <section style="margin-top: 100px;">
+        <h2>Contato</h2>
+        <form>
+            <label>Nome</label>
+            <input type="text" >
 
-                    <label for="mensagem">Mensagem:</label>
-                    <input type="text" name="umsg" id="mensagem">
-                    
-                    <button type="enviar">Enviar</button>
-                </form>
-            </div>
-        </section>
-    </main>
+            <label>E-mail</label>
+            <input type="email" >
 
-    <footer class="fut">
-        <p>© 2025 EcoTech – Todos os direitos reservados</p>
+            <label>Mensagem</label>
+            <textarea ></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>© 2025 EcoTech – Tecnologia Sustentável</p>
     </footer>
 </body>
+
 </html>
